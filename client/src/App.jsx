@@ -18,7 +18,7 @@ const App = () => {
 
   const fetchSlots = async () => {
     try {
-      const res = await axios.get(`http://localhost:5000/api/slots?venue=${venue}&date=${date}`);
+      const res = await axios.get(`https://slot-booking-94g8.onrender.com/api/slots?venue=${venue}&date=${date}`);
       setSlots(res.data);
     } catch (err) {
       console.error("Failed to fetch slots", err);
@@ -33,7 +33,7 @@ const App = () => {
 
   const bookSlot = async () => {
     try {
-      const res = await axios.post("http://localhost:5000/api/book", {
+      const res = await axios.post("https://slot-booking-94g8.onrender.com/api/book", {
         venue,
         date,
         time: selectedSlot,
