@@ -22,6 +22,11 @@ let slots = {
   }
 };
 
+app.get("/", (req, res) => {
+  res.send("Slot Booking API is running");
+});
+
+
 app.get("/api/slots", (req, res) => {
   const { venue, date } = req.query;
   const venueSlots = slots[venue]?.[date] || [];
