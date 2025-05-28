@@ -21,27 +21,24 @@
 
 
 # How to Run the Project
-<!-- Step 1: Clone the Repository -->
+Step 1: Clone the Repository 
 
     - git clone <your-repo-url>
     - cd SLOT-BOOKING
 
-<!-- Step 2: Setup Backend (Node.js) -->
+Step 2: Setup Backend (Node.js)
 
     - cd server
     - npm install
     - npm start
-    - This starts the backend server on http://localhost:5000.
+    
+- This starts the backend server on http://localhost:5000.
 
-<!-- Step 3: Setup Frontend (React) -->
+Step 3: Setup Frontend (React)
 
     - cd client
     - npm install
     - npm install framer-motion
     - npm run dev
-    - This starts the frontend on http://localhost:5173.
+- This starts the frontend on http://localhost:5173.
 
-<!-- API Endpoints -->
-
-    - GET /api/slots?venue=VenueName&date=YYYY-MM-DD – Returns available slots
-    - POST /api/book – Books a slot with provided details (venue, date, time, user, sport)
