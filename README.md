@@ -23,7 +23,7 @@ This is a full-stack slot booking web application developed as part of the Sport
 # How to Run the Project
 Step 1: Clone the Repository 
 
-    - git clone <your-repo-url>
+    - git clone https://github.com/Sneh0510/Slot-Booking.git
     - cd SLOT-BOOKING
 
 Step 2: Setup Backend (Node.js)
