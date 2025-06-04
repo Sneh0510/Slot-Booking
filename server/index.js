@@ -8,14 +8,14 @@ app.use(express.json());
 
 let slots = {
   "Venue A": {
-    "2025-05-25": [
+    "2025-06-05": [
       { time: "10:00 AM", isBooked: false },
       { time: "11:00 AM", isBooked: false },
       { time: "12:00 PM", isBooked: false },
     ]
   },
   "Venue B": {
-    "2025-05-25": [
+    "2025-06-05": [
       { time: "10:00 AM", isBooked: false },
       { time: "11:00 AM", isBooked: false }
     ]
